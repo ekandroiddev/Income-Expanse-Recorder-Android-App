@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/income_layout_bg"
+    android:layout_marginTop="5dp">
+    <TextView
+        android:id="@+id/incomeType"
+        android:layout_marginStart="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Salary"
+        android:textSize="27sp"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:drawableStartCompat="@drawable/income_icon"
+        android:drawablePadding="10dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/incomeAmount"
+        android:layout_marginEnd="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="50000"
+        android:textSize="27sp"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:gravity="center"
+        app:drawableStartCompat="@drawable/plus_icon" />
+</RelativeLayout>
